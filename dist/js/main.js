@@ -1,1 +1,2 @@
 let icon=document.querySelector("nav .container .navIcon"),nav=document.querySelector("nav .navOptoin");icon.onclick=()=>{nav.classList.toggle("showNavopton")};
+let box=document.querySelector(".what .box.active"),div=document.querySelectorAll(".what .content .box"),left=document.querySelector(".what .content .left"),right=document.querySelector(".what .content .right");right.onclick=()=>{div.forEach(t=>{t.classList.contains("active")&&"3"!=t.dataset.num&&(t.classList.remove("active"),t.nextElementSibling.classList.add("active"))})};
