@@ -1,0 +1,1 @@
+let icond=document.querySelector(".navdesign .container .navIcon"),navd=document.querySelector(".navdesign .navOptoin");icond.onclick=()=>{navd.classList.toggle("showNavopton")};
